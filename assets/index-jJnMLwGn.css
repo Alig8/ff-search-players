@@ -1,27 +1,21 @@
-@import"/fonts/GFF-Latin-CdMedium.ttf";
-
-*,
-:before,
-:after {
+@import"https://fonts.googleapis.com/css2?family=Handlee&display=swap";*,:before,:after {
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
     border-color: #e5e7eb
 }
 
-:before,
-:after {
+:before,:after {
     --tw-content: ""
 }
 
-html,
-:host {
+html,:host {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
     font-feature-settings: normal;
     font-variation-settings: normal;
     -webkit-tap-highlight-color: transparent
@@ -43,12 +37,7 @@ abbr:where([title]) {
     text-decoration: underline dotted
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-size: inherit;
     font-weight: inherit
 }
@@ -58,16 +47,12 @@ a {
     text-decoration: inherit
 }
 
-b,
-strong {
+b,strong {
     font-weight: bolder
 }
 
-code,
-kbd,
-samp,
-pre {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+code,kbd,samp,pre {
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
     font-feature-settings: normal;
     font-variation-settings: normal;
     font-size: 1em
@@ -77,8 +62,7 @@ small {
     font-size: 80%
 }
 
-sub,
-sup {
+sub,sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -99,11 +83,7 @@ table {
     border-collapse: collapse
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button,input,optgroup,select,textarea {
     font-family: inherit;
     font-feature-settings: inherit;
     font-variation-settings: inherit;
@@ -115,15 +95,11 @@ textarea {
     padding: 0
 }
 
-button,
-select {
+button,select {
     text-transform: none
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
+button,[type=button],[type=reset],[type=submit] {
     -webkit-appearance: button;
     background-color: transparent;
     background-image: none
@@ -141,8 +117,7 @@ progress {
     vertical-align: baseline
 }
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+::-webkit-inner-spin-button,::-webkit-outer-spin-button {
     height: auto
 }
 
@@ -164,19 +139,7 @@ summary {
     display: list-item
 }
 
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
+blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre {
     margin: 0
 }
 
@@ -189,9 +152,7 @@ legend {
     padding: 0
 }
 
-ol,
-ul,
-menu {
+ol,ul,menu {
     list-style: none;
     margin: 0;
     padding: 0
@@ -205,20 +166,17 @@ textarea {
     resize: vertical
 }
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
+input::-moz-placeholder,textarea::-moz-placeholder {
     opacity: 1;
     color: #9ca3af
 }
 
-input::placeholder,
-textarea::placeholder {
+input::placeholder,textarea::placeholder {
     opacity: 1;
     color: #9ca3af
 }
 
-button,
-[role=button] {
+button,[role=button] {
     cursor: pointer
 }
 
@@ -226,20 +184,12 @@ button,
     cursor: default
 }
 
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
+img,svg,video,canvas,audio,iframe,embed,object {
     display: block;
     vertical-align: middle
 }
 
-img,
-video {
+img,video {
     max-width: 100%;
     height: auto
 }
@@ -248,9 +198,7 @@ video {
     display: none
 }
 
-*,
-:before,
-:after {
+*,:before,:after {
     --tw-border-spacing-x: 0;
     --tw-border-spacing-y: 0;
     --tw-translate-x: 0;
@@ -520,7 +468,7 @@ video {
 }
 
 .font-libre {
-    font-family: "Handlee cursive", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji"
+    font-family: "Handlee cursive",ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"
 }
 
 .text-2xl {
@@ -566,10 +514,10 @@ video {
 }
 
 .transition {
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: .15s
 }
 
@@ -634,7 +582,7 @@ video {
     --toastify-text-color-error: #fff;
     --toastify-spinner-color: #616161;
     --toastify-spinner-color-empty-area: #e0e0e0;
-    --toastify-color-progress-light: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+    --toastify-color-progress-light: linear-gradient( to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55 );
     --toastify-color-progress-dark: #bb86fc;
     --toastify-color-progress-info: var(--toastify-color-info);
     --toastify-color-progress-success: var(--toastify-color-success);
@@ -645,7 +593,7 @@ video {
 
 .Toastify__toast-container {
     z-index: var(--toastify-z-index);
-    -webkit-transform: translate3d(0, 0, var(--toastify-z-index));
+    -webkit-transform: translate3d(0,0,var(--toastify-z-index));
     position: fixed;
     padding: 4px;
     width: var(--toastify-toast-width);
@@ -687,22 +635,18 @@ video {
 
 @media only screen and (max-width : 480px) {
     .Toastify__toast-container {
-        width: 100vw;
+        width:100vw;
         padding: 0;
         left: env(safe-area-inset-left);
         margin: 0
     }
 
-    .Toastify__toast-container--top-left,
-    .Toastify__toast-container--top-center,
-    .Toastify__toast-container--top-right {
+    .Toastify__toast-container--top-left,.Toastify__toast-container--top-center,.Toastify__toast-container--top-right {
         top: env(safe-area-inset-top);
         transform: translate(0)
     }
 
-    .Toastify__toast-container--bottom-left,
-    .Toastify__toast-container--bottom-center,
-    .Toastify__toast-container--bottom-right {
+    .Toastify__toast-container--bottom-left,.Toastify__toast-container--bottom-center,.Toastify__toast-container--bottom-right {
         bottom: env(safe-area-inset-bottom);
         transform: translate(0)
     }
@@ -736,12 +680,11 @@ video {
 .Toastify__toast--stacked {
     position: absolute;
     width: 100%;
-    transform: translate3d(0, var(--y), 0) scale(var(--s));
+    transform: translate3d(0,var(--y),0) scale(var(--s));
     transition: transform .3s
 }
 
-.Toastify__toast--stacked[data-collapsed] .Toastify__toast-body,
-.Toastify__toast--stacked[data-collapsed] .Toastify__close-button {
+.Toastify__toast--stacked[data-collapsed] .Toastify__toast-body,.Toastify__toast--stacked[data-collapsed] .Toastify__close-button {
     transition: opacity .1s
 }
 
@@ -811,8 +754,7 @@ video {
 }
 
 .Toastify__toast-icon {
-    margin-inline-end: 10px;
-    width: 20px;
+    margin-inline-end:10px;width: 20px;
     flex-shrink: 0;
     display: flex
 }
@@ -829,7 +771,7 @@ video {
 
 @media only screen and (max-width : 480px) {
     .Toastify__toast {
-        margin-bottom: 0;
+        margin-bottom:0;
         border-radius: 0
     }
 }
@@ -839,8 +781,7 @@ video {
     color: var(--toastify-text-color-dark)
 }
 
-.Toastify__toast-theme--light,
-.Toastify__toast-theme--colored.Toastify__toast--default {
+.Toastify__toast-theme--light,.Toastify__toast-theme--colored.Toastify__toast--default {
     background: var(--toastify-color-light);
     color: var(--toastify-text-color-light)
 }
@@ -889,10 +830,7 @@ video {
     background: var(--toastify-color-progress-error)
 }
 
-.Toastify__progress-bar-theme--colored.Toastify__progress-bar--info,
-.Toastify__progress-bar-theme--colored.Toastify__progress-bar--success,
-.Toastify__progress-bar-theme--colored.Toastify__progress-bar--warning,
-.Toastify__progress-bar-theme--colored.Toastify__progress-bar--error {
+.Toastify__progress-bar-theme--colored.Toastify__progress-bar--info,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--success,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--warning,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--error {
     background: var(--toastify-color-transparent)
 }
 
@@ -920,8 +858,7 @@ video {
     width: 14px
 }
 
-.Toastify__close-button:hover,
-.Toastify__close-button:focus {
+.Toastify__close-button:hover,.Toastify__close-button:focus {
     opacity: 1
 }
 
@@ -994,31 +931,26 @@ video {
 }
 
 @keyframes Toastify__bounceInRight {
-
-    0%,
-    60%,
-    75%,
-    90%,
-    to {
-        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
     }
 
     0% {
         opacity: 0;
-        transform: translate3d(3000px, 0, 0)
+        transform: translate3d(3000px,0,0)
     }
 
     60% {
         opacity: 1;
-        transform: translate3d(-25px, 0, 0)
+        transform: translate3d(-25px,0,0)
     }
 
     75% {
-        transform: translate3d(10px, 0, 0)
+        transform: translate3d(10px,0,0)
     }
 
     90% {
-        transform: translate3d(-5px, 0, 0)
+        transform: translate3d(-5px,0,0)
     }
 
     to {
@@ -1029,41 +961,36 @@ video {
 @keyframes Toastify__bounceOutRight {
     20% {
         opacity: 1;
-        transform: translate3d(-20px, var(--y), 0)
+        transform: translate3d(-20px,var(--y),0)
     }
 
     to {
         opacity: 0;
-        transform: translate3d(2000px, var(--y), 0)
+        transform: translate3d(2000px,var(--y),0)
     }
 }
 
 @keyframes Toastify__bounceInLeft {
-
-    0%,
-    60%,
-    75%,
-    90%,
-    to {
-        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
     }
 
     0% {
         opacity: 0;
-        transform: translate3d(-3000px, 0, 0)
+        transform: translate3d(-3000px,0,0)
     }
 
     60% {
         opacity: 1;
-        transform: translate3d(25px, 0, 0)
+        transform: translate3d(25px,0,0)
     }
 
     75% {
-        transform: translate3d(-10px, 0, 0)
+        transform: translate3d(-10px,0,0)
     }
 
     90% {
-        transform: translate3d(5px, 0, 0)
+        transform: translate3d(5px,0,0)
     }
 
     to {
@@ -1074,41 +1001,36 @@ video {
 @keyframes Toastify__bounceOutLeft {
     20% {
         opacity: 1;
-        transform: translate3d(20px, var(--y), 0)
+        transform: translate3d(20px,var(--y),0)
     }
 
     to {
         opacity: 0;
-        transform: translate3d(-2000px, var(--y), 0)
+        transform: translate3d(-2000px,var(--y),0)
     }
 }
 
 @keyframes Toastify__bounceInUp {
-
-    0%,
-    60%,
-    75%,
-    90%,
-    to {
-        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
     }
 
     0% {
         opacity: 0;
-        transform: translate3d(0, 3000px, 0)
+        transform: translate3d(0,3000px,0)
     }
 
     60% {
         opacity: 1;
-        transform: translate3d(0, -20px, 0)
+        transform: translate3d(0,-20px,0)
     }
 
     75% {
-        transform: translate3d(0, 10px, 0)
+        transform: translate3d(0,10px,0)
     }
 
     90% {
-        transform: translate3d(0, -5px, 0)
+        transform: translate3d(0,-5px,0)
     }
 
     to {
@@ -1118,47 +1040,41 @@ video {
 
 @keyframes Toastify__bounceOutUp {
     20% {
-        transform: translate3d(0, calc(var(--y) - 10px), 0)
+        transform: translate3d(0,calc(var(--y) - 10px),0)
     }
 
-    40%,
-    45% {
+    40%,45% {
         opacity: 1;
-        transform: translate3d(0, calc(var(--y) + 20px), 0)
+        transform: translate3d(0,calc(var(--y) + 20px),0)
     }
 
     to {
         opacity: 0;
-        transform: translate3d(0, -2000px, 0)
+        transform: translate3d(0,-2000px,0)
     }
 }
 
 @keyframes Toastify__bounceInDown {
-
-    0%,
-    60%,
-    75%,
-    90%,
-    to {
-        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    0%,60%,75%,90%,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
     }
 
     0% {
         opacity: 0;
-        transform: translate3d(0, -3000px, 0)
+        transform: translate3d(0,-3000px,0)
     }
 
     60% {
         opacity: 1;
-        transform: translate3d(0, 25px, 0)
+        transform: translate3d(0,25px,0)
     }
 
     75% {
-        transform: translate3d(0, -10px, 0)
+        transform: translate3d(0,-10px,0)
     }
 
     90% {
-        transform: translate3d(0, 5px, 0)
+        transform: translate3d(0,5px,0)
     }
 
     to {
@@ -1168,28 +1084,25 @@ video {
 
 @keyframes Toastify__bounceOutDown {
     20% {
-        transform: translate3d(0, calc(var(--y) - 10px), 0)
+        transform: translate3d(0,calc(var(--y) - 10px),0)
     }
 
-    40%,
-    45% {
+    40%,45% {
         opacity: 1;
-        transform: translate3d(0, calc(var(--y) + 20px), 0)
+        transform: translate3d(0,calc(var(--y) + 20px),0)
     }
 
     to {
         opacity: 0;
-        transform: translate3d(0, 2000px, 0)
+        transform: translate3d(0,2000px,0)
     }
 }
 
-.Toastify__bounce-enter--top-left,
-.Toastify__bounce-enter--bottom-left {
+.Toastify__bounce-enter--top-left,.Toastify__bounce-enter--bottom-left {
     animation-name: Toastify__bounceInLeft
 }
 
-.Toastify__bounce-enter--top-right,
-.Toastify__bounce-enter--bottom-right {
+.Toastify__bounce-enter--top-right,.Toastify__bounce-enter--bottom-right {
     animation-name: Toastify__bounceInRight
 }
 
@@ -1201,13 +1114,11 @@ video {
     animation-name: Toastify__bounceInUp
 }
 
-.Toastify__bounce-exit--top-left,
-.Toastify__bounce-exit--bottom-left {
+.Toastify__bounce-exit--top-left,.Toastify__bounce-exit--bottom-left {
     animation-name: Toastify__bounceOutLeft
 }
 
-.Toastify__bounce-exit--top-right,
-.Toastify__bounce-exit--bottom-right {
+.Toastify__bounce-exit--top-right,.Toastify__bounce-exit--bottom-right {
     animation-name: Toastify__bounceOutRight
 }
 
@@ -1222,7 +1133,7 @@ video {
 @keyframes Toastify__zoomIn {
     0% {
         opacity: 0;
-        transform: scale3d(.3, .3, .3)
+        transform: scale3d(.3,.3,.3)
     }
 
     50% {
@@ -1237,7 +1148,7 @@ video {
 
     50% {
         opacity: 0;
-        transform: translate3d(0, var(--y), 0) scale3d(.3, .3, .3)
+        transform: translate3d(0,var(--y),0) scale3d(.3,.3,.3)
     }
 
     to {
@@ -1281,16 +1192,16 @@ video {
 
 @keyframes Toastify__flipOut {
     0% {
-        transform: translate3d(0, var(--y), 0) perspective(400px)
+        transform: translate3d(0,var(--y),0) perspective(400px)
     }
 
     30% {
-        transform: translate3d(0, var(--y), 0) perspective(400px) rotateX(-20deg);
+        transform: translate3d(0,var(--y),0) perspective(400px) rotateX(-20deg);
         opacity: 1
     }
 
     to {
-        transform: translate3d(0, var(--y), 0) perspective(400px) rotateX(90deg);
+        transform: translate3d(0,var(--y),0) perspective(400px) rotateX(90deg);
         opacity: 0
     }
 }
@@ -1305,99 +1216,97 @@ video {
 
 @keyframes Toastify__slideInRight {
     0% {
-        transform: translate3d(110%, 0, 0);
+        transform: translate3d(110%,0,0);
         visibility: visible
     }
 
     to {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 }
 
 @keyframes Toastify__slideInLeft {
     0% {
-        transform: translate3d(-110%, 0, 0);
+        transform: translate3d(-110%,0,0);
         visibility: visible
     }
 
     to {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 }
 
 @keyframes Toastify__slideInUp {
     0% {
-        transform: translate3d(0, 110%, 0);
+        transform: translate3d(0,110%,0);
         visibility: visible
     }
 
     to {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 }
 
 @keyframes Toastify__slideInDown {
     0% {
-        transform: translate3d(0, -110%, 0);
+        transform: translate3d(0,-110%,0);
         visibility: visible
     }
 
     to {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 }
 
 @keyframes Toastify__slideOutRight {
     0% {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 
     to {
         visibility: hidden;
-        transform: translate3d(110%, var(--y), 0)
+        transform: translate3d(110%,var(--y),0)
     }
 }
 
 @keyframes Toastify__slideOutLeft {
     0% {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 
     to {
         visibility: hidden;
-        transform: translate3d(-110%, var(--y), 0)
+        transform: translate3d(-110%,var(--y),0)
     }
 }
 
 @keyframes Toastify__slideOutDown {
     0% {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 
     to {
         visibility: hidden;
-        transform: translate3d(0, 500px, 0)
+        transform: translate3d(0,500px,0)
     }
 }
 
 @keyframes Toastify__slideOutUp {
     0% {
-        transform: translate3d(0, var(--y), 0)
+        transform: translate3d(0,var(--y),0)
     }
 
     to {
         visibility: hidden;
-        transform: translate3d(0, -500px, 0)
+        transform: translate3d(0,-500px,0)
     }
 }
 
-.Toastify__slide-enter--top-left,
-.Toastify__slide-enter--bottom-left {
+.Toastify__slide-enter--top-left,.Toastify__slide-enter--bottom-left {
     animation-name: Toastify__slideInLeft
 }
 
-.Toastify__slide-enter--top-right,
-.Toastify__slide-enter--bottom-right {
+.Toastify__slide-enter--top-right,.Toastify__slide-enter--bottom-right {
     animation-name: Toastify__slideInRight
 }
 
@@ -1409,15 +1318,13 @@ video {
     animation-name: Toastify__slideInUp
 }
 
-.Toastify__slide-exit--top-left,
-.Toastify__slide-exit--bottom-left {
+.Toastify__slide-exit--top-left,.Toastify__slide-exit--bottom-left {
     animation-name: Toastify__slideOutLeft;
     animation-timing-function: ease-in;
     animation-duration: .3s
 }
 
-.Toastify__slide-exit--top-right,
-.Toastify__slide-exit--bottom-right {
+.Toastify__slide-exit--top-right,.Toastify__slide-exit--bottom-right {
     animation-name: Toastify__slideOutRight;
     animation-timing-function: ease-in;
     animation-duration: .3s
